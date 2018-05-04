@@ -41,7 +41,7 @@
 			</tr>
 			<tr>
 				<td>创建/删除:</td>
-				<td><input type="radio" name="c" id="createDel" value="create" checked="checked" />创建&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="createDel" id="createDel" value="del" />删除 </td>
+				<td><input type="radio" name="createDel" id="createDel" value="create" checked="checked" />创建&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="createDel" id="createDel" value="del" />删除 </td>
 			</tr>
 			<tr>
 				<td>目录/文件:</td>
