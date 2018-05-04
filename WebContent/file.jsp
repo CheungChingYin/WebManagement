@@ -41,11 +41,21 @@
 			</tr>
 			<tr>
 				<td>创建/删除:</td>
-				<td><input type="radio" name="c" id="createDel" value="create" checked="checked" />创建&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="createDel" id="createDel" value="del" />删除 </td>
+				<td>
+					<select name="createDel">
+						<option value="create">创建</option>
+						<option value="del">删除</option>
+					</select>
+				</td>
 			</tr>
 			<tr>
 				<td>目录/文件:</td>
-				<td><input type="radio" name="dirFile" id="dirFile" value="dir" checked="checked" />目录&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="dirFile" id="dirFile" value="file" />文件</td>
+				<td>
+					<select name="dirFile">
+						<option value="dir">目录</option>
+						<option value="file">文件</option>
+					</select>
+				</td>
 			</tr>
 			<tr>
 				<td><input type="submit" name="input" id="input" value="提交" /></td>
